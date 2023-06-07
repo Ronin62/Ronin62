@@ -1,0 +1,191 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI  ', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #766f54;
+}
+#logo{
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    
+}
+
+h1{
+    position: relative;
+    left: 210px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+header,
+nav {
+    background-color: #766f54;
+}
+
+header {
+    padding: 20px;
+    color: #F9F9F9;
+}
+
+header h2 {
+    margin-left: 200px;
+}
+
+nav {
+    position: absolute;
+    width: 200px;
+    min-height: 100%;
+    border-top: 1px solid #C6B6A5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: fixed;
+}
+
+nav ul,
+nav form,
+.dropdown {
+    padding: 0;
+    min-height: 100vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #766f54;
+    margin: 18px 0;
+    width: 100%;
+}
+
+nav button {
+    padding: 8px;
+    background-color: #A67C53;
+    color: #F9F9F9;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover,
+nav button:active {
+    background-color: #dfcdb9;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px 100px;
+    padding-right: 240px;
+    min-height: 600px;
+    background-image: linear-gradient(to right, #f4f4f4, #e0e8c5);
+}
+
+main h1,
+main h2,
+main h3,
+main p {
+    color: #6D5D4F;
+}
+
+main h2 {
+    margin-bottom: 0;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    padding: 0;
+}
+
+.box-container-item,
+.box-container-itemChoices {
+    flex-basis: calc(33.33% - 1.6rem);
+    min-height: 200px;
+    object-fit: cover;
+    margin: 0.7rem;
+    height: 100%;
+}
+
+.box-container-item {
+    max-width: 350px;
+    width: 100%;
+}
+
+.box-container-itemChoices,
+.box-container-itemEthics {
+    width: 33%;
+}
+
+.box-container-itemChoices p,
+.box-container-itemEthics p {
+    margin-right: 2%;
+}
+
+footer {
+    background-color: #766f54;
+    color: #F9F9F9;
+    padding: 20px 0 0 200px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+}
+
+table {
+    padding: 0;
+    border-collapse: collapse;
+    width: 720px;
+}
+
+th,
+td {
+    min-width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+
+th {
+    background-color: #e4e4e470;
+}
+
+
+div li {
+    min-height: 100px;
+    height: 100%;
+    color: #6D5D4F;
+}
+
+.ref {
+    font-size: 12px;
+    margin-bottom: 1em;
+    color: #6D5D4F;
+    list-style-type: none;
+}
+
+.box-container-itemChoices li {
+    margin-bottom: 10px;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PDF {
+    width: 820px;
+    height: 800px;
+}
